@@ -1,0 +1,52 @@
+{
+  "groups": [
+    {
+      "name": "application.jwt",
+      "type": "ru.netology.cloudstorage.jwt.JwtConfig",
+      "sourceType": "ru.netology.cloudstorage.jwt.JwtConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "application.jwt.authorization-header",
+      "type": "java.lang.String",
+      "sourceType": "ru.netology.cloudstorage.jwt.JwtConfig"
+    },
+    {
+      "name": "application.jwt.claims-map-key",
+      "type": "java.lang.String",
+      "sourceType": "ru.netology.cloudstorage.jwt.JwtConfig"
+    },
+    {
+      "name": "application.jwt.claimsMapKey",
+      "type": "java.lang.String",
+      "description": "Description for application.jwt.claimsMapKey."
+    },
+    {
+      "name": "application.jwt.secret-key",
+      "type": "java.lang.String",
+      "sourceType": "ru.netology.cloudstorage.jwt.JwtConfig"
+    },
+    {
+      "name": "application.jwt.secretKey",
+      "type": "java.lang.String",
+      "description": "Description for application.jwt.secretKey."
+    },
+    {
+      "name": "application.jwt.token-expiration-after-days",
+      "type": "java.lang.Integer",
+      "sourceType": "ru.netology.cloudstorage.jwt.JwtConfig"
+    },
+    {
+      "name": "application.jwt.token-prefix",
+      "type": "java.lang.String",
+      "sourceType": "ru.netology.cloudstorage.jwt.JwtConfig"
+    },
+    {
+      "name": "origin.allowed",
+      "type": "java.lang.String",
+      "description": "Description for origin.allowed."
+    }
+  ],
+  "hints": []
+}
